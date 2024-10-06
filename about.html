@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Kajiado East Constituency</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Custom Styles -->
+        <style>
+            .project-card {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .project-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            }
+            .card img {
+                height: 200px;
+                object-fit: cover;
+            }
+            .card-title {
+                font-weight: bold;
+            }
+            .btn-outline-secondary:hover {
+                background-color: #333;
+                color: #fff;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary fw-bold mb-0">Kajiado<span class="text-dark">east</span> </h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link active">About</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
+                            <a href="event.html" class="nav-item nav-link">Events</a>
+                            <a href="beneficiaries.html" class="nav-item nav-link">Beneficiaries</a>
+                            <a href="projects.html" class="nav-item nav-link">Projects</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                        <a href="survey.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Public Forum</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <img src="img/kadiado_east_map.png" class="img-fluid rounded" id="mapMp" alt="Kajiado East">
+                    </div>
+                    <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">About Kajiado East</small>
+                        <h1 class="display-5 mb-4" id="sectionTitle">Kajiado East Constituency</h1>
+                        <p class="mb-4" id="sectionDescription">
+                            Kajiado East Constituency is a vibrant and growing community, rich in Maasai culture and heritage. Located in Kajiado County, the constituency plays a crucial role in regional development through agriculture, trade, and education. With a focus on sustainability, infrastructure, and empowerment of local communities, Kajiado East aims to create opportunities for all its residents, especially the youth and women.
+                        </p>
+                        <div class="row g-4 text-dark mb-5" id="extraDetails">
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Strong Agricultural Base
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Focus on Education and Empowerment
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Improved Infrastructure Projects
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Support for Local Businesses
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">About Current MP</small>
+                        <h1 class="display-5 mb-4" id="sectionTitle">About Hamisi</h1>
+                        <p class="mb-4" id="sectionDescription">
+                            Hon. Maimai Hamisi Kakuta is the current Member of Parliament for Kajiado East. He is dedicated to fostering community development, focusing on empowering local businesses, improving education, and enhancing infrastructure. His leadership is centered on uplifting the youth, women, and marginalized groups in the constituency.
+                        </p>
+                        <div class="row g-4 text-dark mb-5" id="extraDetails">
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Community Business Empowerment
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Access to Quality Education
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Infrastructure Development
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Youth and Women Empowerment Programs
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <img src="img/maimai.jpg" class="img-fluid rounded" id="mapMp" alt="Kajiado East">
+                    </div>
+                </div>
+                <div class="row g-5 mb-4">
+                    <p class="mb-4 wow bounceInUp" data-wow-delay="0.3s" id="sectionDescription">
+                        Hon. Hamisi Maimai Kakuta has made significant contributions to his community and constituency through his leadership and development-oriented initiatives. A native of Kajiado County, Hamisi Kakuta began his political journey driven by a passion for social and economic advancement. His rise to political prominence started with his grassroots involvement in addressing issues that affected marginalized communities, especially focusing on improving education, healthcare, and infrastructure.
+                    <br> <br>
+                        As a Member of Parliament for Kajiado East, Hon. Kakuta has spearheaded numerous development projects aimed at uplifting the lives of his constituents. One of his key accomplishments has been in the education sector, where he has consistently worked to improve school infrastructure, provide scholarships for needy students, and support the empowerment of youth through educational opportunities. His commitment to education extends beyond just infrastructure, as he also advocates for policies that ensure equal access to quality learning for all.
+                    <br><br>
+                        In the healthcare sector, Hon. Kakuta has made significant strides by improving access to medical services, particularly in rural and underserved areas of Kajiado East. He has facilitated the construction and upgrading of health facilities, ensuring that residents have access to essential healthcare services. Additionally, he has supported various health programs focused on maternal health, immunization, and combating common diseases in the region.
+                    <br><br>
+                        Hon. Kakuta's focus on infrastructure development is also noteworthy. Under his leadership, the constituency has seen improved road networks, water supply systems, and electrification projects. These initiatives have not only enhanced the quality of life for the residents but also boosted economic activities by improving access to markets and essential services.
+                    <br><br>
+                        His approach to development is characterized by inclusivity, ensuring that all groups, including women, youth, and marginalized communities, have a voice in decision-making processes. Hon. Kakuta continues to work toward creating more opportunities for his constituents through economic empowerment initiatives, such as supporting small businesses and encouraging entrepreneurship.
+                        <br><br>
+                        Beyond his local contributions, Hon. Hamisi Kakuta remains a dedicated servant leader with a vision for a prosperous and united Kajiado East, advocating for policies and projects that drive sustainable development and social equity.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h1 class="text-primary">Kajiado<span class="text-dark">East</span></h1>
+                            <p class="lh-lg mb-4">Empowering Kajiado East Constituency through various development projects and initiatives. Our mission is to enhance the quality of life and foster economic growth in our community.</p>
+                            <div class="footer-icon d-flex">
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Key Projects</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Water Supply Programs</a>
+                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Education Initiatives</a>
+                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Healthcare Improvements</a>
+                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Economic Empowerment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Contact Us</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Kajiado East, Kenya</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> 0743050069</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> info@kajiadoeast.co.ke</p>
+                                <p><i class="fa fa-clock text-primary me-2"></i> Mon-Fri: 9 AM - 5 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Photo Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                    <img src="img/project-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Project Image 1">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/project-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Project Image 2">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/project-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Project Image 3">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/project-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Project Image 4">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/project-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Project Image 5">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/project-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Project Image 6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>KajiadoEast</a>, All rights reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        Developed by <a class="border-bottom" href="https://funcorpdevelopers.netlify.app">Fun-Corp Developers</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
